@@ -7,3 +7,4 @@ This is a small web page build with Twitter Bootstrap (v 2.3.2) for a university
 
 Twitter Bootstrap: twitter.github.io/bootstrap
 
+Page visible here: http://jacopo.antanix.net/learning/Bootstrap-test/twitter-bootstrap.html
