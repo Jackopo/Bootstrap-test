@@ -3,6 +3,7 @@ Bootstrap-test
 
 Twitter Bootstrap Test
 
-This is a small web page build with twitter bootstrap for a university course and exam.
+This is a small web page build with Twitter Bootstrap (v 2.3.2) for a university course and exam.
 
+Twitter Bootstrap: twitter.github.io/bootstrap
 
