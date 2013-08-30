@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<head> 
+<html lang="en">
+<head>
 	<title>Twitter Bootstrap</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link media="screen" type="text/css" href="css/style.css" rel="stylesheet" />
+	<link media="screen" type="text/css" href="css/style.less" rel="stylesheet" />
+	<!-- LESS.js -->
+	<script src="js/less.js" type="text/javascript"></script>
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
-	<link href="css/bootstrap-responsive.css" rel="stylesheet">    	
-</head> 
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+</head>
 
-<body data-spy="scroll" data-target=".nav"> 
+<body data-spy="scroll" data-target=".nav">
 
 	<div id="topbar" class="navbar navbar-fixed-top">
 		<div class="span1 pull-right">
 			<a href="index.html">
 				<img class="img-rounded" src="../img/gb.png"/>
-			</a> 
+			</a>
 			<a href="index-de.html">
 				<img class="img-rounded" src="../img/de.png"/>
 			</a>
@@ -23,12 +25,12 @@
 	</div>
 	<header class="text-center">
 		<h1 id="title">Twitter Bootstrap</h1>
-		<h2 id="subtitle">a UI Framework</h2> 
+		<h2 id="subtitle">a UI Framework</h2>
 	</header>
 
-	<div id="cv" class="container-fluid"> 
+	<div id="cv" class="container-fluid">
 
-		<div id="body" class="row-fluid"> 
+		<div id="body" class="row-fluid">
 
 			<div id="sidebar" class="span2" >
 				<ul class="nav nav-list well">
@@ -40,11 +42,11 @@
 					<li><a href="#definition-list">Defintion List</a></li>
 					<!-- <li><a href="#block5">Block 5</a></li> -->
 				</ul>
-			</div> 
-			
+			</div>
+
 			<div id="body-content" class="span8">
 
-				<div id="block1" class="well"> 
+				<div id="block1" class="well">
 					<h3 class="section-title">Heading 3</h3>
 					<div class="tooltip-element">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -56,10 +58,10 @@
 						<p>
 							<a  data-toggle="tooltip" href="#" title="Lorem ipsum dolor sit amet....">This is a link with the Tooltip plugin</a>
 						</p>
-					</div> 
+					</div>
 				</div>
 
-				<div id="block2" class="well"> 
+				<div id="block2" class="well">
 					<h3 class="section-title">Collapse</h3>
 					<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapsable">
 						Collapsable element
@@ -71,23 +73,23 @@
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div> 
-				</div>				
+					</div>
+				</div>
 
-				<div id="block3" class="well"> 
+				<div id="block3" class="well">
 					<h3 class="section-title">Carousel</h3>
-					
+
 
 					<div id="myCarousel" class="carousel slide">
-						<!-- Carousel indicators -->					
+						<!-- Carousel indicators -->
 						<ol class="carousel-indicators">
 							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 							<li data-target="#myCarousel" data-slide-to="1"></li>
-							<li data-target="#myCarousel" data-slide-to="2"></li>							
+							<li data-target="#myCarousel" data-slide-to="2"></li>
 						</ol>
 						<!-- Carousel Items-->
 						<div class="carousel-inner">
-							
+
 							<!-- First Item -->
 							<div class="active item">
 								<!-- Change the image path  -->
@@ -97,31 +99,31 @@
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								</div>
 							</div>
-							
+
 							<!-- Second Item -->
 							<div class="item">
-								<!-- Change the image path -->						
-								<img src="https://pbs.twimg.com/media/A2dm2GWCYAASAUi.jpg:large" /> 
+								<!-- Change the image path -->
+								<img src="https://pbs.twimg.com/media/A2dm2GWCYAASAUi.jpg:large" />
 								<div class="carousel-caption">
 									<h4>Item 2</h4>
-									<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>								
+									<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 								</div>
 							</div>
 
 							<!-- Third Item -->
 							<div class="item">
-								<!-- Change the image path -->						
+								<!-- Change the image path -->
 								<img src="https://pbs.twimg.com/media/BJRO8f4CYAAUxpp.jpg:large" />
 								<div class="carousel-caption">
 									<h4>Item 2</h4>
 									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 								</div>
-							</div>							
+							</div>
 						</div>
 						<!-- Carousel Navigation-->
 						<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 						<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-						
+
 					</div>
 				</div>
 
@@ -133,7 +135,7 @@
 
 
 
-				<div id="block4" class="well"> 
+				<div id="block4" class="well">
 					<h3 class="section-title">Heading 3</h3>
 					<div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -142,38 +144,38 @@
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div> 
-				</div> 
-
-				<div id="list" class="well"> 
-					<h3 class="section-title">List</h3> 
-					<div class="section-body">
-						<ul> 
-							<li>Item 1</li> 
-							<li>Item 2</li> 
-							<li>Item 3</li> 
-							<li>Item 4</li> 
-						</ul> 
 					</div>
-				</div> 
-
-				<div id="definition-list" class="well"> 
-					<h3 class="section-title">Definition List</h3> 
-					<div class="section-body">  
-						<dl> 
-							<dt>Term</dt> 
-							<dd>Definition</dd> 
-							<dt>Term</dt> 
-							<dd>Definition</dd> 
-							<dt>Term</dt> 
-							<dd>Definition</dd> 
-							<dt>Term</dt> 
-							<dd>Definition</dd> 							
-						</dl>
-					</div> 
 				</div>
 
-				<!-- <div id="block5" class="well"> 
+				<div id="list" class="well">
+					<h3 class="section-title">List</h3>
+					<div class="section-body">
+						<ul>
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+							<li>Item 4</li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="definition-list" class="well">
+					<h3 class="section-title">Definition List</h3>
+					<div class="section-body">
+						<dl>
+							<dt>Term</dt>
+							<dd>Definition</dd>
+							<dt>Term</dt>
+							<dd>Definition</dd>
+							<dt>Term</dt>
+							<dd>Definition</dd>
+							<dt>Term</dt>
+							<dd>Definition</dd>
+						</dl>
+					</div>
+				</div>
+
+				<!-- <div id="block5" class="well">
 					<h3 class="section-title">Heading 3</h3>
 					<div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisi magna, congue non placerat a, facilisis sit amet metus. Nullam id nisl tortor, eget lobortis magna. Vestibulum posuere rutrum quam sed auctor. Maecenas vitae eros eu tortor rhoncus rhoncus eu eget neque. Ut sit amet dui a magna interdum eleifend sed a nulla. Etiam at tortor at magna euismod pharetra sed sit amet sapien. Suspendisse fringilla massa odio. In in nulla magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eget est felis. Donec commodo mauris ac dolor dignissim id ullamcorper sapien tincidunt. Aliquam erat volutpat. Cras turpis nunc, pellentesque eu hendrerit a, laoreet sit amet mi. Integer iaculis molestie tortor quis accumsan.</p>
@@ -185,10 +187,10 @@
 						<p>Vestibulum tempus, ante nec viverra aliquet, erat orci aliquam magna, vitae consequat orci est a metus. Vivamus vitae orci non est lacinia consequat quis quis justo. Praesent porttitor posuere urna, quis pulvinar felis tincidunt id. Suspendisse condimentum pharetra diam, in facilisis ipsum tempor at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent vel massa eget eros gravida interdum at eu tellus. Nunc condimentum nibh vitae erat feugiat ac tincidunt erat malesuada. Proin luctus purus sit amet ipsum feugiat non porta erat dictum. Curabitur sed orci leo, vitae suscipit elit.</p>
 
 						<p>Vivamus gravida turpis vitae orci placerat mollis. Praesent nec nulla vel arcu rhoncus pharetra vitae ut magna. Quisque ultricies, nunc sed ultrices mattis, turpis turpis fringilla felis, tempus feugiat mauris velit a arcu. In tortor ligula, sagittis nec posuere quis, dapibus sit amet arcu. Vestibulum dui nulla, lobortis in luctus ac, aliquam non sem. Phasellus semper, felis sit amet mattis porttitor, risus mauris lobortis ipsum, eget ullamcorper dui velit tincidunt sapien. Integer pellentesque est ut neque eleifend sagittis.</p>
-					</div> 
-				</div> --> 
+					</div>
+				</div> -->
 
-				
+
 			</div>
 		</div>
 	</div>
@@ -198,6 +200,6 @@
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/application.js"></script>
-</body> 
+</body>
 
-</html> 
+</html>
