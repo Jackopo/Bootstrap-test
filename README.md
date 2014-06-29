@@ -9,4 +9,4 @@ Twitter Bootstrap: http://twitter.github.io/bootstrap
 
 Page visible here: http://jacopo.antanix.net/learning/Bootstrap-test/
 
-Assignment: [gist.github.com/Jackopo/6487061](https://gist.github.com/Jackopo/6487061)
+Article: [gist.github.com/Jackopo/6487061](https://gist.github.com/Jackopo/6487061)
